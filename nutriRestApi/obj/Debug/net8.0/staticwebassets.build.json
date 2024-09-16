@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BD89yA4TLVYx56nZNF0+zlDiWjihbLsWfGUsAkJBkKI=",
+  "Source": "nutriRestApi",
+  "BasePath": "_content/nutriRestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
