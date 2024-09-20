@@ -1,0 +1,29 @@
+2024-09-20 00:22:31.440 -06:00 [INF] Now listening on: http://localhost:5131
+2024-09-20 00:22:31.499 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 00:22:31.500 -06:00 [INF] Hosting environment: Development
+2024-09-20 00:22:31.500 -06:00 [INF] Content root path: E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi
+2024-09-20 00:22:41.860 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5131/swagger/index.html - null null
+2024-09-20 00:22:42.068 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5131/swagger/index.html - 200 null text/html;charset=utf-8 208.8943ms
+2024-09-20 00:22:42.167 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5131/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 00:22:42.170 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5131/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 3.4336ms
+2024-09-20 00:22:42.436 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5131/swagger/v1/swagger.json - null null
+2024-09-20 00:22:42.601 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.6905ms
+2024-09-20 00:23:28.421 -06:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:5131/nutrirestapi/cliente/UpdateCliente/118090543 - application/json 81
+2024-09-20 00:23:28.430 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-09-20 00:23:28.432 -06:00 [INF] Executing endpoint 'nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi)'
+2024-09-20 00:23:28.452 -06:00 [INF] Route matched with {action = "UpdateCliente", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCliente(Int32, System.Collections.Generic.Dictionary`2[System.String,System.Object]) on controller nutriRestApi.Controllers.ClienteController (nutriRestApi).
+2024-09-20 00:23:28.495 -06:00 [INF] Intentando editar al cliente de cedula 118090543
+2024-09-20 00:23:28.506 -06:00 [ERR] Hubo un error actualizando al cliente
+2024-09-20 00:23:28.511 -06:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 00:23:28.524 -06:00 [INF] Executed action nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi) in 67.7725ms
+2024-09-20 00:23:28.525 -06:00 [INF] Executed endpoint 'nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi)'
+2024-09-20 00:23:28.525 -06:00 [INF] Request finished HTTP/1.1 PATCH http://localhost:5131/nutrirestapi/cliente/UpdateCliente/118090543 - 400 null application/json; charset=utf-8 103.4996ms
+2024-09-20 00:23:50.962 -06:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:5131/nutrirestapi/cliente/UpdateCliente/118090543 - application/json 19
+2024-09-20 00:23:50.963 -06:00 [INF] Executing endpoint 'nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi)'
+2024-09-20 00:23:50.963 -06:00 [INF] Route matched with {action = "UpdateCliente", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCliente(Int32, System.Collections.Generic.Dictionary`2[System.String,System.Object]) on controller nutriRestApi.Controllers.ClienteController (nutriRestApi).
+2024-09-20 00:23:50.965 -06:00 [INF] Intentando editar al cliente de cedula 118090543
+2024-09-20 00:23:50.974 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 00:23:50.975 -06:00 [INF] Executed action nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi) in 11.8829ms
+2024-09-20 00:23:50.975 -06:00 [INF] Executed endpoint 'nutriRestApi.Controllers.ClienteController.UpdateCliente (nutriRestApi)'
+2024-09-20 00:23:50.976 -06:00 [INF] Request finished HTTP/1.1 PATCH http://localhost:5131/nutrirestapi/cliente/UpdateCliente/118090543 - 200 null application/json; charset=utf-8 13.758ms
+2024-09-20 00:24:15.455 -06:00 [INF] Application is shutting down...

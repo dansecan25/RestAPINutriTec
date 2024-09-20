@@ -72,5 +72,20 @@ namespace nutriRestApi.Controllers
             }
             return Ok(cliente);
         }
+        [HttpPatch("UpdateCliente/{cedula}")]
+        public IActionResult UpdateCliente(int cedula, [FromBody] Dictionary<string, object> valoresActualizar)
+        {
+            try
+            {
+                Logger.LogInformation("Intentando editar al cliente de cedula {cedula}",cedula);
+                repositorio.UpdateCliente(cedula, valoresActualizar);
+                return Ok(new { message = "Cliente actualizado exitosamente." });
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError("Hubo un error actualizando al cliente");
+                return BadRequest(new { error = ex.Message });
+            }
+        }
     }
 }

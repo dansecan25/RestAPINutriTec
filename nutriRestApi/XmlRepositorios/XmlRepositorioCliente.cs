@@ -212,9 +212,88 @@ namespace nutriRestApi.XmlRepositorios
             }
         }
 
-        public void UpdateCliente(int cedula, string valorActualizar,params object[] valores)
+        public void UpdateCliente(int cedula, Dictionary<string, object> valoresActualizar)
         {
+            var archivo = XDocument.Load(rutaXml);
+            var clienteElement = archivo.Root.Elements("Cliente")
+                .FirstOrDefault(e => (int?)e.Element("Cedula") == cedula);
 
+            if (clienteElement == null)
+            {
+                throw new Exception("Cliente no encontrado.");
+            }
+
+            foreach (var entry in valoresActualizar)
+            {
+                switch (entry.Key)
+                {
+                    case "TipoUsuario":
+                        clienteElement.SetElementValue("TipoUsuario", entry.Value);
+                        break;
+                    case "NombreUsuario":
+                        clienteElement.SetElementValue("NombreUsuario", entry.Value);
+                        break;
+                    case "Nombre":
+                        clienteElement.Element("NombreCompleto")?.SetElementValue("Nombre", entry.Value);
+                        break;
+                    case "PrimerApellido":
+                        clienteElement.Element("NombreCompleto")?.SetElementValue("PrimerApellido", entry.Value);
+                        break;
+                    case "SegundoApellido":
+                        clienteElement.Element("NombreCompleto")?.SetElementValue("SegundoApellido", entry.Value);
+                        break;
+                    case "Dominio":
+                        clienteElement.Element("Correo")?.SetElementValue("Dominio", entry.Value);
+                        break;
+                    case "Identificador":
+                        clienteElement.Element("Correo")?.SetElementValue("Identificador", entry.Value);
+                        break;
+                    case "Dia":
+                        clienteElement.Element("FechaNacimiento")?.SetElementValue("Dia", entry.Value);
+                        break;
+                    case "Mes":
+                        clienteElement.Element("FechaNacimiento")?.SetElementValue("Mes", entry.Value);
+                        break;
+                    case "Año":
+                        clienteElement.Element("FechaNacimiento")?.SetElementValue("Año", entry.Value);
+                        break;
+                    case "Contrasena":
+                        clienteElement.SetElementValue("Contrasena",entry.Value);
+                        break;
+                    case "Pais":
+                        clienteElement.SetElementValue("Pais",entry.Value);
+                        break;
+                    case "PesoActual":
+                        clienteElement.SetElementValue("PesoActual",entry.Value);
+                        break;
+                    case "IMC":
+                        clienteElement.SetElementValue("IndiceMasaCorporal",entry.Value);
+                        break;
+                    case "cadera":
+                        clienteElement.Element("Medidas").SetElementValue("cadera",entry.Value);
+                        break;
+                    case "cuello":
+                        clienteElement.Element("Medidas").SetElementValue("cuello",entry.Value);
+                        break;
+                    case "cintura":
+                        clienteElement.Element("Medidas").SetElementValue("cintura",entry.Value);
+                        break;
+                    case "PorcentajeMusculo":
+                        clienteElement.SetElementValue("PorcentajeMusculo",entry.Value);
+                        break;
+                    case "ConsumoMaximoDiario":
+                        clienteElement.SetElementValue("ConsumoDiarioMaximo",entry.Value);
+                        break;
+                    case "PorcentajeGrasa":
+                        clienteElement.SetElementValue("PorcentajeGrasa",entry.Value);
+                        break;
+                    default:
+                        throw new Exception($"El atributo '{entry.Key}' no es válido.");
+                }
+                
+            }
+            // Guarda los cambios en el archivo XML
+            archivo.Save(rutaXml);
         }
         public void DeleteCliente(int cedula, string valorBorrar, params object[] valores)
         {
