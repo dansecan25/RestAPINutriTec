@@ -1,0 +1,32 @@
+<Cliente>
+    <Cedula>12345678</Cedula>
+    <TipoUsuario>regular</TipoUsuario>
+    <NombreUsuario>usuario1</NombreUsuario>
+    <NombreCompleto>
+        <Nombre>Juan</Nombre>
+        <PrimerApellido>Perez</PrimerApellido>
+        <SegundoApellido>Garcia</SegundoApellido>
+    </NombreCompleto>
+    <Correo>
+        <Dominio>gmail.com</Dominio>
+        <Identificador>juan.perez</Identificador>
+    </Correo>
+    <FechaNacimiento>
+        <Dia>15</Dia>
+        <Mes>5</Mes>
+        <Año>1985</Año>
+    </FechaNacimiento>
+    <Contrasena>123456</Contrasena>
+    <Pais>Costa Rica</Pais>
+    <PesoActual>80</PesoActual>
+    <IndiceMasaCorporal>25</IndiceMasaCorporal>
+    <Medidas>
+        <cadera>90</cadera>
+        <cuello>40</cuello>
+        <cintura>80</cintura>
+    </Medidas>
+    <PorcentajeMusculo>40</PorcentajeMusculo>
+    <ConsumoDiarioMaximo>2000</ConsumoDiarioMaximo>
+    <PorcentajeGrasa>20</PorcentajeGrasa>
+</Cliente>
+
