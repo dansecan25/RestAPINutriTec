@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {}
+    "C:\\Users\\Admin\\Documents\\MyPrivateDocs\\Repos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {}
   },
   "projects": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {
+    "C:\\Users\\Admin\\Documents\\MyPrivateDocs\\Repos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\MyPrivateDocs\\Repos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
         "projectName": "nutriRestApi",
-        "projectPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
-        "packagesPath": "C:\\Users\\dseca\\.nuget\\packages\\",
-        "outputPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\MyPrivateDocs\\Repos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\MyPrivateDocs\\Repos\\RestAPINutriTec\\nutriRestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +54,22 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -77,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

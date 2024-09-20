@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using nutriRestApi.Models;
 using nutriRestApi.XmlRepositorios;
+using Microsoft.Extensions.Logging;
+using System;
+using System.IO;
 
 namespace nutriRestApi.Controllers
 {
@@ -13,9 +16,18 @@ namespace nutriRestApi.Controllers
     public class ClienteController : ControllerBase
     {
         private readonly XmlRepositorioCliente repositorio;
-        public ClienteController()
+        private readonly ILogger<ClienteController> Logger;
+
+        public ClienteController(ILogger<ClienteController> logger) //se inyecta logger como parametro al controler
         {
-            repositorio=new XmlRepositorioCliente("E:/Repositorios/Proyectos/RestAPINutriTec/nutriRestApi/XmlRepositorios/Cliente.xml");
+            Logger=logger;
+            string rutaLogs="";
+            // Get the current working directory
+            string workingDirectory = Environment.CurrentDirectory;
+            string pathToFile = Path.Combine(workingDirectory, "DataBaseXML", "Cliente.xml");
+
+            Logger.LogInformation("La ruta a probar es: {workingDirectory}",pathToFile);
+            repositorio=new XmlRepositorioCliente(pathToFile);
         }
         
         [HttpPost]
@@ -36,6 +48,7 @@ namespace nutriRestApi.Controllers
         [HttpGet("{cedula}")]
         public ActionResult<Cliente> GetCliente([FromRoute] int cedula)
         {
+            Logger.LogInformation("Intentando buscar el cliente con cedula: {Cedula}", cedula);
             var cliente = repositorio.GetCliente(cedula);
             if (cliente == null)
                 return NotFound();
