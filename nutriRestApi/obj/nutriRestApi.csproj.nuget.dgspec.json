@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {}
+    "C:\\Users\\SPARK\\Documents\\Bases\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {}
   },
   "projects": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {
+    "C:\\Users\\SPARK\\Documents\\Bases\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
+        "projectUniqueName": "C:\\Users\\SPARK\\Documents\\Bases\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
         "projectName": "nutriRestApi",
-        "projectPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
-        "packagesPath": "C:\\Users\\dseca\\.nuget\\packages\\",
-        "outputPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\obj\\",
+        "projectPath": "C:\\Users\\SPARK\\Documents\\Bases\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
+        "packagesPath": "C:\\Users\\SPARK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SPARK\\Documents\\Bases\\RestAPINutriTec\\nutriRestApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\SPARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

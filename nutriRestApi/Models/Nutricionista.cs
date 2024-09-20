@@ -6,7 +6,7 @@ using nutriRestApi.Models.Compuestos;
 
 namespace nutriRestApi.Models
 {
-    public class Nutricionista
+    public class Nutricionista : Usuario
     {
         public int codigoNutricionisa { get; set; }
 
@@ -33,5 +33,19 @@ namespace nutriRestApi.Models
                 double valorFinal=((descuento/100.0)*cobroTotal)-cobroFinal;
                 return valorFinal;
             } }
+        
+        public Nutricionista(int cedula, string tipoUsuario, string nombreUsuario,NombreCompleto nombreCompleto, Correo correo, FechaNacimiento fechaNacimiento, string contrasena, int codigoNutricionisa, int peso, int indiceMasaCorporal, string foto, TarjetaCobro tarjetaCobro, Direccion direccion, string tipoCobro, double cobroTotal, int descuento)
+        :base(cedula,tipoUsuario,nombreUsuario,nombreCompleto,correo,fechaNacimiento,contrasena){
+            this.peso=peso;
+            this.indiceMasaCorporal=indiceMasaCorporal;
+            this.foto=foto;
+            this.tarjetaCobro=tarjetaCobro;
+            this.direccion=direccion;
+            this.tipoCobro=tipoCobro;
+            this.cobroTotal=cobroTotal;
+            this.descuento=descuento;
         }
+    }
+
+        
 }
