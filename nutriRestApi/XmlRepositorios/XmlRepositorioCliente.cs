@@ -62,6 +62,65 @@ namespace nutriRestApi.XmlRepositorios
             root.Add(clienteElement); 
             doc.Save(rutaXml);//guarda los cambios en el xml
         }
+        
+        public List<Cliente> GetAllClientes()
+        {
+             var archivo = XDocument.Load(rutaXml);
+             var listaclientes = new List<Cliente>();
+
+            foreach (var clienteElement in archivo.Root.Elements("Cliente")) //itera por cada uno de los clientes en el xml
+            {
+                // Reutiliza la lógica de mapeo usada en GetCliente
+                int ced = (int)clienteElement.Element("Cedula");
+                string tipoUsuario = (string)clienteElement.Element("TipoUsuario");
+                string nombreUsuario = (string)clienteElement.Element("NombreUsuario");
+                string nombre = (string)clienteElement.Element("NombreCompleto").Element("Nombre");
+                string primerApellido = (string)clienteElement.Element("NombreCompleto").Element("PrimerApellido");
+                string segundoApellido = (string)clienteElement.Element("NombreCompleto").Element("SegundoApellido");
+                NombreCompleto nombreCompleto = new NombreCompleto(nombre, primerApellido, segundoApellido);
+                string dominio = (string)clienteElement.Element("Correo").Element("Dominio");
+                string identificador = (string)clienteElement.Element("Correo").Element("Identificador");
+                Correo correo = new Correo(dominio, identificador);
+                int dia = (int)clienteElement.Element("FechaNacimiento").Element("Dia");
+                int mes = (int)clienteElement.Element("FechaNacimiento").Element("Mes");
+                int ano = (int)clienteElement.Element("FechaNacimiento").Element("Año");
+                FechaNacimiento fecha = new FechaNacimiento(dia, mes, ano);
+                string contrasena = (string)clienteElement.Element("Contrasena");
+                string pais = (string)clienteElement.Element("Pais");
+                int pesoActual = (int)clienteElement.Element("PesoActual");
+                int indiceMasaCorporal = (int)clienteElement.Element("IndiceMasaCorporal");
+                int cadera = (int)clienteElement.Element("Medidas").Element("cadera");
+                int cuello = (int)clienteElement.Element("Medidas").Element("cuello");
+                int cintura = (int)clienteElement.Element("Medidas").Element("cintura");
+                Medidas medidas = new Medidas(cadera, cuello, cintura);
+                int porcentajeMusculo = (int)clienteElement.Element("PorcentajeMusculo");
+                int consumoDiarioMaximo = (int)clienteElement.Element("ConsumoDiarioMaximo");
+                int porcentajeGrasa = (int)clienteElement.Element("PorcentajeGrasa");
+
+                // Crea la instancia de Cliente y agrégala a la lista
+                Cliente cliente = new Cliente(
+                    ced,
+                    tipoUsuario,
+                    nombreUsuario,
+                    nombreCompleto,
+                    correo,
+                    fecha,
+                    contrasena,
+                    pais,
+                    pesoActual,
+                    indiceMasaCorporal,
+                    medidas,
+                    porcentajeMusculo,
+                    consumoDiarioMaximo,
+                    porcentajeGrasa
+                );
+
+                listaclientes.Add(cliente);
+            }
+
+
+             return listaclientes;
+        }
         public Cliente? GetCliente(int cedula) //el ? indica que puede ser null
         {
             var archivo = XDocument.Load(rutaXml);

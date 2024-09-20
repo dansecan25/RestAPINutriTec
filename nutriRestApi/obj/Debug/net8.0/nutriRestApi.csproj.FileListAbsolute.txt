@@ -76,3 +76,14 @@ C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\De
 C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\System.Text.Json.dll

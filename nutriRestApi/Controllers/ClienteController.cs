@@ -21,28 +21,43 @@ namespace nutriRestApi.Controllers
         public ClienteController(ILogger<ClienteController> logger) //se inyecta logger como parametro al controler
         {
             Logger=logger;
-            string rutaLogs="";
             // Get the current working directory
             string workingDirectory = Environment.CurrentDirectory;
-            string pathToFile = Path.Combine(workingDirectory, "DataBaseXML", "Cliente.xml");
+            string rutaXml = Path.Combine(workingDirectory, "DataBaseXML", "Cliente.xml");
 
-            Logger.LogInformation("La ruta a probar es: {workingDirectory}",pathToFile);
-            repositorio=new XmlRepositorioCliente(pathToFile);
+            repositorio=new XmlRepositorioCliente(rutaXml);
         }
         
         [HttpPost]
         public IActionResult CreateCliente([FromBody] Cliente cliente)
         {
+            Logger.LogInformation("Intentando crear cliente de cedula {cedCliente}",cliente.cedula);
              if (cliente == null)
             {
+                Logger.LogWarning("Se ingreso un cliente null");
                 return BadRequest("Cliente cannot be null");
             }
 
             // Guardar el cliente
             repositorio.PostCliente(cliente);
-
+            Logger.LogInformation("Se creo exitosamente el cliente de cedula {cedCliente}",cliente.cedula);
             // Retornar un código de estado 201 (Created) con la URL del nuevo recurso
             return CreatedAtAction(nameof(GetCliente), new { cedula = cliente.cedula }, cliente);
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            Logger.LogInformation("Buscando todos los clientes");
+            var clientes = repositorio.GetAllClientes();
+            if (clientes == null || clientes.Count == 0)
+            {
+                Logger.LogError("No se encontraron clientes");
+                return NotFound("No se encontraron clientes.");
+            }
+            Logger.LogInformation("Se cargaron todos los clientes con el Get");
+            return Ok(clientes);
+
         }
 
         [HttpGet("{cedula}")]
@@ -51,8 +66,10 @@ namespace nutriRestApi.Controllers
             Logger.LogInformation("Intentando buscar el cliente con cedula: {Cedula}", cedula);
             var cliente = repositorio.GetCliente(cedula);
             if (cliente == null)
+            {
+                Logger.LogError("El cliente {cedula} no fue encontrado",cedula);
                 return NotFound();
-
+            }
             return Ok(cliente);
         }
     }

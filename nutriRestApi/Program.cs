@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day) // Logs to file (daily)
+    .WriteTo.File("logs/log-.log", rollingInterval: RollingInterval.Day) // Logs to file (daily)
     .CreateLogger();
 
 // Use Serilog as the logging provider

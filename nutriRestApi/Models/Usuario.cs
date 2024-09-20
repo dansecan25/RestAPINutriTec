@@ -24,11 +24,12 @@ namespace nutriRestApi.Models
 
         public int edad 
         { get{
-            DateTime fechaNac = fechaNacimiento.toDateTime();
-            var hoy = DateTime.Today;
-            var valor = hoy.Year - fechaNac.Year;
+            //DateTime fechaNac = fechaNacimiento.toDateTime();
+            //var hoy = DateTime.Today;
+            //var valor = hoy.Year - fechaNac.Year;
             //ajustar si aun no se pasa el cumple
-            if(fechaNac.Date > hoy.AddYears(-valor)) valor--;
+            //if(fechaNac.Date > hoy.AddYears(-valor)) valor--;
+            int valor = fechaNacimiento.ano- DateTime.Today.Year;
             return valor;
         } }
 

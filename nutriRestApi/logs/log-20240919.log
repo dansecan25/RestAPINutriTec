@@ -1,0 +1,56 @@
+2024-09-19 23:21:18.381 -06:00 [INF] Now listening on: http://localhost:5131
+2024-09-19 23:21:18.452 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-19 23:21:18.452 -06:00 [INF] Hosting environment: Development
+2024-09-19 23:21:18.453 -06:00 [INF] Content root path: E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi
+2024-09-19 23:23:24.619 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5131/nutrirestapi/cliente - application/json 618
+2024-09-19 23:23:24.657 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-09-19 23:23:24.659 -06:00 [INF] Executing endpoint 'nutriRestApi.Controllers.ClienteController.CreateCliente (nutriRestApi)'
+2024-09-19 23:23:24.678 -06:00 [INF] Route matched with {action = "CreateCliente", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCliente(nutriRestApi.Models.Cliente) on controller nutriRestApi.Controllers.ClienteController (nutriRestApi).
+2024-09-19 23:23:24.779 -06:00 [INF] Intentando crear cliente de cedula 118090543
+2024-09-19 23:23:24.795 -06:00 [INF] Se creo exitosamente el cliente de cedula 118090543
+2024-09-19 23:23:24.802 -06:00 [INF] Executing CreatedAtActionResult, writing value of type 'nutriRestApi.Models.Cliente'.
+2024-09-19 23:23:24.854 -06:00 [INF] Executed action nutriRestApi.Controllers.ClienteController.CreateCliente (nutriRestApi) in 166.5836ms
+2024-09-19 23:23:24.858 -06:00 [INF] Executed endpoint 'nutriRestApi.Controllers.ClienteController.CreateCliente (nutriRestApi)'
+2024-09-19 23:23:24.860 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5131/nutrirestapi/cliente - 201 null application/json; charset=utf-8 241.7256ms
+2024-09-19 23:23:41.815 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5131/nutrirestapi/cliente - null null
+2024-09-19 23:23:41.822 -06:00 [INF] Executing endpoint 'nutriRestApi.Controllers.ClienteController.GetAll (nutriRestApi)'
+2024-09-19 23:23:41.825 -06:00 [INF] Route matched with {action = "GetAll", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller nutriRestApi.Controllers.ClienteController (nutriRestApi).
+2024-09-19 23:23:41.825 -06:00 [INF] Buscando todos los clientes
+2024-09-19 23:23:41.828 -06:00 [INF] Se cargaron todos los clientes con el Get
+2024-09-19 23:23:41.828 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[nutriRestApi.Models.Cliente, nutriRestApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-19 23:23:41.847 -06:00 [INF] Executed action nutriRestApi.Controllers.ClienteController.GetAll (nutriRestApi) in 22.08ms
+2024-09-19 23:23:41.847 -06:00 [INF] Executed endpoint 'nutriRestApi.Controllers.ClienteController.GetAll (nutriRestApi)'
+2024-09-19 23:23:41.848 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5131/nutrirestapi/cliente - 200 null application/json; charset=utf-8 32.499ms
+2024-09-19 23:24:43.853 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5131/nutrirestapi/cliente/118090543 - null null
+2024-09-19 23:24:43.856 -06:00 [INF] Executing endpoint 'nutriRestApi.Controllers.ClienteController.GetCliente (nutriRestApi)'
+2024-09-19 23:24:43.859 -06:00 [INF] Route matched with {action = "GetCliente", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[nutriRestApi.Models.Cliente] GetCliente(Int32) on controller nutriRestApi.Controllers.ClienteController (nutriRestApi).
+2024-09-19 23:24:43.860 -06:00 [INF] Intentando buscar el cliente con cedula: 118090543
+2024-09-19 23:24:43.863 -06:00 [INF] Executed action nutriRestApi.Controllers.ClienteController.GetCliente (nutriRestApi) in 3.9838ms
+2024-09-19 23:24:43.864 -06:00 [INF] Executed endpoint 'nutriRestApi.Controllers.ClienteController.GetCliente (nutriRestApi)'
+2024-09-19 23:24:43.864 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'element')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Xml.Linq.XElement.op_Explicit(XElement element)
+   at nutriRestApi.XmlRepositorios.XmlRepositorioCliente.GetCliente(Int32 cedula) in E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\XmlRepositorios\XmlRepositorioCliente.cs:line 158
+   at nutriRestApi.Controllers.ClienteController.GetCliente(Int32 cedula) in E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\Controllers\ClienteController.cs:line 67
+   at lambda_method6(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-19 23:24:43.903 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5131/nutrirestapi/cliente/118090543 - 500 null text/plain; charset=utf-8 49.771ms
+2024-09-19 23:24:55.648 -06:00 [INF] Application is shutting down...
