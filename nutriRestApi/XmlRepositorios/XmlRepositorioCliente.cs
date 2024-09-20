@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using nutriRestApi.Models;
 using nutriRestApi.Models.Compuestos;
-
+#pragma warning disable CS8604
+#pragma warning disable CS8602
+#pragma warning disable CS8603
+#pragma warning disable CS8600
 namespace nutriRestApi.XmlRepositorios
 {
     public class XmlRepositorioCliente
@@ -121,11 +124,13 @@ namespace nutriRestApi.XmlRepositorios
 
              return listaclientes;
         }
-        public Cliente? GetCliente(int cedula) //el ? indica que puede ser null
+        public Cliente GetCliente(int cedula) 
         {
             var archivo = XDocument.Load(rutaXml);
             //busca un cliente con base al numero de cedula
-            var clienteElement = archivo.Root.Elements("Cliente").FirstOrDefault(e => (int)e.Element("Cedula") == cedula);
+
+            var clienteElement = archivo.Root.Elements("Cliente").FirstOrDefault(
+                e => (int)e.Element("Cedula") == cedula);
 
             if (clienteElement == null)
             {
@@ -144,10 +149,10 @@ namespace nutriRestApi.XmlRepositorios
                 string nombreUsuario= (string)clienteElement.Element("NombreUsuario");
 
                 //Nombre completo
-                string? nombre=(string)clienteElement.Element("NombreCompleto").Element("Nombre");
-                string? primerApellido= (string)clienteElement.Element("NombreCompleto").Element("PrimerApellido");
-                string? segundoApellido=  (string)clienteElement.Element("NombreCompleto").Element("SegundoApellido");
-                NombreCompleto? nombreCompleto= new NombreCompleto(nombre, primerApellido, segundoApellido);
+                string nombre=(string)clienteElement.Element("NombreCompleto").Element("Nombre");
+                string primerApellido= (string)clienteElement.Element("NombreCompleto").Element("PrimerApellido");
+                string segundoApellido=  (string)clienteElement.Element("NombreCompleto").Element("SegundoApellido");
+                NombreCompleto nombreCompleto= new NombreCompleto(nombre, primerApellido, segundoApellido);
                 
                 //Correo
                 string dominio=(string)clienteElement.Element("Correo").Element("Dominio");
@@ -155,9 +160,9 @@ namespace nutriRestApi.XmlRepositorios
                 Correo correo= new Correo(dominio,identificador);
 
                 //fecha de nacimiento
-                int dia= (int)clienteElement.Element("FechaNacimiento").Element("dia");
-                int mes= (int)clienteElement.Element("FechaNacimiento").Element("mes");
-                int ano= (int)clienteElement.Element("FechaNacimiento").Element("año");
+                int dia= (int)clienteElement.Element("FechaNacimiento").Element("Dia");
+                int mes= (int)clienteElement.Element("FechaNacimiento").Element("Mes");
+                int ano= (int)clienteElement.Element("FechaNacimiento").Element("Año");
                 FechaNacimiento fecha= new FechaNacimiento(dia,mes,ano);
 
                 //contraseña
@@ -183,8 +188,9 @@ namespace nutriRestApi.XmlRepositorios
                 
                 //consumo diario maximo
                 int consumoDiarioMaximo = (int)clienteElement.Element("ConsumoDiarioMaximo");
-                
+
                 //porcentaje de grasa
+
                 int porcentajeGrasa = (int)clienteElement.Element("PorcentajeGrasa");
 
                 return new Cliente(
@@ -202,6 +208,7 @@ namespace nutriRestApi.XmlRepositorios
                     porcentajeMusculo,
                     consumoDiarioMaximo,
                     porcentajeGrasa);
+
             }
         }
 
@@ -215,3 +222,7 @@ namespace nutriRestApi.XmlRepositorios
         }
     }
 }
+#pragma warning restore CS8604 // Possible null reference argument.
+#pragma warning restore CS8603
+#pragma warning restore CS8602
+#pragma warning restore CS8600
