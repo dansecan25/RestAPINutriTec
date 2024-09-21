@@ -1,6 +1,6 @@
-@nutriRestApi_HostAddress = http://localhost:5131
+@NutriRestApi_HostAddress = http://localhost:5207
 
-GET {{nutriRestApi_HostAddress}}/weatherforecast/
+GET {{NutriRestApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {}
+    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj": {}
   },
   "projects": {
-    "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj": {
+    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
-        "projectName": "nutriRestApi",
-        "projectPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\nutriRestApi.csproj",
-        "packagesPath": "C:\\Users\\dseca\\.nuget\\packages\\",
-        "outputPath": "E:\\Repositorios\\Proyectos\\RestAPINutriTec\\nutriRestApi\\obj\\",
+        "projectUniqueName": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj",
+        "projectName": "NutriRestApi",
+        "projectPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj",
+        "packagesPath": "C:\\Users\\Adriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Adriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,25 +47,9 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Serilog": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.7.3, )"
             }
           },
           "imports": [
@@ -93,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,89 +1,39 @@
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\appsettings.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.exe
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.deps.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.runtimeconfig.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.pdb
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.AssemblyInfoInputs.cache
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.AssemblyInfo.cs
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.nutriRestApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.build.nutriRestApi.props
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.nutriRestApi.props
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.nutriRestApi.props
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\scopedcss\bundle\nutriRestApi.styles.css
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRes.B691707A.Up2Date
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\refint\nutriRestApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.pdb
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.genruntimeconfig.cache
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\ref\nutriRestApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.csproj.AssemblyReference.cache
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.GeneratedMSBuildEditorConfig.editorconfig
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.AssemblyInfoInputs.cache
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.AssemblyInfo.cs
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.csproj.CoreCompileInputs.cache
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.MvcApplicationPartsAssemblyInfo.cs
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.MvcApplicationPartsAssemblyInfo.cache
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.sourcelink.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\refint\nutriRestApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.pdb
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\appsettings.Development.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\appsettings.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.exe
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.deps.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.runtimeconfig.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\nutriRestApi.pdb
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.build.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.development.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.nutriRestApi.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.build.nutriRestApi.props
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.nutriRestApi.props
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.nutriRestApi.props
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\scopedcss\bundle\nutriRestApi.styles.css
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRes.B691707A.Up2Date
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.genruntimeconfig.cache
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\ref\nutriRestApi.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\obj\Debug\net8.0\nutriRestApi.sourcelink.json
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.AspNetCore.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-C:\Users\Admin\Documents\MyPrivateDocs\Repos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.AspNetCore.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
-E:\Repositorios\Proyectos\RestAPINutriTec\nutriRestApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\appsettings.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\NutriRestApi.exe
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\NutriRestApi.deps.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\NutriRestApi.runtimeconfig.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\NutriRestApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\NutriRestApi.pdb
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.csproj.AssemblyReference.cache
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.AssemblyInfoInputs.cache
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.AssemblyInfo.cs
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.csproj.CoreCompileInputs.cache
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.NutriRestApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.build.NutriRestApi.props
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NutriRestApi.props
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NutriRestApi.props
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\scopedcss\bundle\NutriRestApi.styles.css
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRes.AF94401A.Up2Date
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\refint\NutriRestApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.pdb
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\NutriRestApi.genruntimeconfig.cache
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\obj\Debug\net8.0\ref\NutriRestApi.dll
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\users.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\clients.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\nutritionists.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\admins.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\dishes.json
+C:\Users\Adriel\Desktop\Informacion-de-Prioridad\TEC\2024\Semestre_2\Bases De Datos\Evaluaciones\Proyectos\Proyecto1\NutriRestApi\bin\Debug\net8.0\Data\products.json
