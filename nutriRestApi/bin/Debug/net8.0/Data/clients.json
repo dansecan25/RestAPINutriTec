@@ -1,0 +1,17 @@
+[
+  {
+    "Email": "adriel.chaves23456@hotmail.com",
+    "E_Identifier": "adriel.chaves23456",
+    "E_Domain": "hotmail.com",
+    "FatPercentage": 24,
+    "MaximumDailyConsumption": 12,
+    "MusclePercentage": 34,
+    "Country": "Costa Rica",
+    "InicialMeasures": "Hip:12,Neck:12,Waist:12",
+    "Im_Hip": 12,
+    "Im_Neck": 12,
+    "Im_Waist": 12,
+    "Imc": 12,
+    "CurrentWeight": 70
+  }
+]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj": {}
+    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\RestAPINutriTec\\nutriRestApi\\NutriRestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj": {
+    "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\RestAPINutriTec\\nutriRestApi\\NutriRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj",
+        "projectUniqueName": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\RestAPINutriTec\\nutriRestApi\\NutriRestApi.csproj",
         "projectName": "NutriRestApi",
-        "projectPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\NutriRestApi.csproj",
+        "projectPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\RestAPINutriTec\\nutriRestApi\\NutriRestApi.csproj",
         "packagesPath": "C:\\Users\\Adriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\NutriRestApi\\obj\\",
+        "outputPath": "C:\\Users\\Adriel\\Desktop\\Informacion-de-Prioridad\\TEC\\2024\\Semestre_2\\Bases De Datos\\Evaluaciones\\Proyectos\\Proyecto1\\RestAPINutriTec\\nutriRestApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adriel\\AppData\\Roaming\\NuGet\\NuGet.Config"

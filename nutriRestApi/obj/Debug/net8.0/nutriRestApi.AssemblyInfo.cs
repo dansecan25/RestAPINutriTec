@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nutriRestApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9b3f2da5ee7c6f4c44213878c2483ad8503e2c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85572d8262336a58f5e0b4dddd74409943de918c")]
 [assembly: System.Reflection.AssemblyProductAttribute("nutriRestApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nutriRestApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

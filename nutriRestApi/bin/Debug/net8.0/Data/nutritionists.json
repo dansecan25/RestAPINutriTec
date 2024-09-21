@@ -1,0 +1,27 @@
+[
+  {
+    "Email": "adriel.chaves23@nutriTECNutri.com",
+    "E_Identifier": "adriel.chaves23",
+    "E_Domain": "nutriTECNutri.com",
+    "Weight": 123,
+    "Imc": 123,
+    "Address": "string",
+    "A_Province": "string",
+    "A_Canton": "string",
+    "A_District": "string",
+    "Photo": "string",
+    "PaymentCard": "string",
+    "Pc_Name": "string",
+    "Pc_Number": 1234123412341234,
+    "Pc_Cvc": 123,
+    "Pc_ExpirationDate": "string",
+    "Pc_Ed_Year": 25,
+    "Pc_Ed_Month": 5,
+    "PaymentType": "Mensual",
+    "TotalPaymentAmount": 0,
+    "Discount": 0,
+    "FinalPayment": 0,
+    "Code": 630559,
+    "Advicer": []
+  }
+]

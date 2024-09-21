@@ -1,0 +1,53 @@
+[
+  {
+    "Id": 118520818,
+    "Age": 22,
+    "Password": "12341234",
+    "Birthdate": "20/09/2024",
+    "B_Day": 20,
+    "B_Month": 9,
+    "B_Year": 2024,
+    "Email": "adriel.chaves@nutriTECAdmin.com",
+    "E_Identifier": "adriel.chaves",
+    "E_Domain": "nutriTECAdmin.com",
+    "Fullname": "Adriel Sebastian Chaves Salazar",
+    "Name": "Adriel Sebastian",
+    "FirstlastName": "Chaves",
+    "SecondlastName": "Salazar",
+    "Username": "AdrielAdmin23456"
+  },
+  {
+    "Id": 123123123,
+    "Age": 20,
+    "Password": "12341234",
+    "Birthdate": "20/09/2024",
+    "B_Day": 20,
+    "B_Month": 9,
+    "B_Year": 2024,
+    "Email": "adriel.chaves23456@hotmail.com",
+    "E_Identifier": "adriel.chaves23456",
+    "E_Domain": "hotmail.com",
+    "Fullname": "Adriel Se Chaves Salazar",
+    "Name": "Adriel Se",
+    "FirstlastName": "Chaves",
+    "SecondlastName": "Salazar",
+    "Username": "ClienteAdriel23456"
+  },
+  {
+    "Id": 555666777,
+    "Age": 20,
+    "Password": "12341234",
+    "Birthdate": "string",
+    "B_Day": 0,
+    "B_Month": 0,
+    "B_Year": 0,
+    "Email": "adriel.chaves23@nutriTECNutri.com",
+    "E_Identifier": "adriel.chaves23",
+    "E_Domain": "nutriTECNutri.com",
+    "Fullname": "string",
+    "Name": "string",
+    "FirstlastName": "string",
+    "SecondlastName": "string",
+    "Username": "AdrielNutricionista2345888"
+  }
+]
