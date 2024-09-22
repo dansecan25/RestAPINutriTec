@@ -5,8 +5,20 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using Serilog;
+using Serilog.Events; // (optional, if needed for log levels)
+using Serilog.Sinks.File; // For the File sink
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File("logs/log-.log", rollingInterval: RollingInterval.Day) // Logs to file (daily)
+    .CreateLogger();
+
+// Use Serilog as the logging provider
+builder.Host.UseSerilog(Log.Logger);
 
 // Configurar servicios
 builder.Services.AddControllers()
